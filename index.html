@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>esi2play JS game</title>
+  <link rel="stylesheet" href="style.css">
+
+<body>
+  <img src="images\esi2play.JPG" alt="esi2play">
+  <h1>The Legendary game called Snake🐍 <br> <button type="instructions" class="btn" onclick="openPopup()">💡</button></h1>
+  
+  <div class="popup" id="popup">
+    <h1>Rules of the game...</h1>
+    <p>1.As a hungry snake, you only need to eat food until you can't handle it anymore.</p>
+    <p>2.To start the game, you need to press any directional keys to move the snake.</p>
+    <p>3.Avoid hitting the wall or yourself.</p>
+    <button type="button" onclick="closePopup()">OK</button>
+  </div>
+  
+
+  <canvas id="gameBoard"></canvas>
+
+  <script src="index.js"></script>
+  
+</body>
+</html>
